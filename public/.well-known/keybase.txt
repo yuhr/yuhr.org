@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/yuhr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yuhr.org
+  * I am yuhr (https://keybase.io/yuhr) on keybase.
+  * I have a public key ASDUc8p5YFuMCvtGYsuo4GxN95KrhSd8Lyf89y_RDlUqoQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d473ca79605b8c0afb4662cba8e06c4df792ab85277c2f27fcf72fd10e552aa10a",
+      "host": "keybase.io",
+      "kid": "0120d473ca79605b8c0afb4662cba8e06c4df792ab85277c2f27fcf72fd10e552aa10a",
+      "uid": "7efcca311b6efd176a42ab49e9a07d19",
+      "username": "yuhr"
+    },
+    "merkle_root": {
+      "ctime": 1543483239,
+      "hash": "89c821f0c0d185677ad7fc0666616d4e6ae9ebaca783627b758717d712847a08010c182137218f1322261e8edd9a1051a3fd3dd7121f1f67b4a5ed7bc754678d",
+      "hash_meta": "50b4bd6a453420fa0ddfe6552b73a475c422ce1bbc087b01de46bd9e503fbff7",
+      "seqno": 4026292
+    },
+    "service": {
+      "entropy": "MbsMNIS/u3Q+vdCOWATyTGIi",
+      "hostname": "yuhr.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.10.1"
+  },
+  "ctime": 1543483292,
+  "expire_in": 504576000,
+  "prev": "df63d9cd86e7de0b11b18722eb2023ef9ee9a3c599750aaa77d4c30b9073b615",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1HPKeWBbjAr7RmLLqOBsTfeSq4UnfC8n/Pcv0Q5VKqEKp3BheWxvYWTESpcCCcQg32PZzYbn3gsRsYci6yAj757po8WZdQqqd9TDC5BzthXEIJ0EB7ExRKg1sUAHM7IW4/5IyVuqbONFDy6xa/fM/6qvAgHCo3NpZ8RAR3sOJdsHyqwbYdBTlrtHS9t5sdwJRgH1bUoo4qiRaby5jjNG5sCDctce1/U0tquCe7Lo0zksrh2mScI3e2zmBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICl8WmLnU2uoiFU9+W6WBbyehonv2qr21Z44+3T22iBXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yuhr
+
+==================================================================
