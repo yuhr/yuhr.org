@@ -42,24 +42,26 @@
   "Publishing & Typesetting": {
     "Adobe InDesign": 0.8,
     "SATySFi": 0.9,
-    "LaTeX": 0.2
+    "LaTeX": 0.4
   },
-  "OS's": {
+  "OSs": {
     "macOS": 0.9,
     "Arch Linux": 0.6,
     "Windows": 0.7,
-    "RancherOS": 0.7
+    "RancherOS": 0.5
   },
   "Chips & Boards": {
     "ESP32": 0.7,
     "Raspberry Pi": 0.7,
-    "FT232H": 0.5
+    "FT232H": 0.5,
+    "STM32": 0.1
   },
   "Protocols & Specs": {
     "USB": 0.5,
     "HTTP": 0.7,
     "PDF": 0.4,
-    "OpenID Connect": 0.8
+    "OpenID Connect": 0.8,
+    "I²C": 0.6
   },
   "CAD": {
     "EAGLE": 0.6,
