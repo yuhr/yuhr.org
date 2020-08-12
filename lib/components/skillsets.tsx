@@ -1,7 +1,6 @@
 import skillsets from "../../public/skillsets.json"
 import StarRatings from "react-star-ratings"
 import Block from "components/block"
-import Divider from "components/divider"
 
 export const Skillsets = () => {
   return (

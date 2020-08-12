@@ -12,7 +12,7 @@ import {
   IconDefinition
 } from "@fortawesome/free-brands-svg-icons"
 
-import Tippy from "@tippyjs/react"
+import Tooltip from "components/tooltip"
 import { useResponsive } from "utils"
 const SocialIcon = ({
   url,
@@ -23,12 +23,7 @@ const SocialIcon = ({
   icon: IconDefinition
   alt: string
 }) => (
-  <Tippy
-    content={alt}
-    placement="bottom"
-    animation="shift-away-subtle"
-    duration={100}
-  >
+  <Tooltip content={alt}>
     <span className="icon">
       <a href={url} aria-label={alt}>
         <FontAwesomeIcon icon={icon} size="lg" />
@@ -40,7 +35,7 @@ const SocialIcon = ({
         }
       `}</style>
     </span>
-  </Tippy>
+  </Tooltip>
 )
 
 export const Header = () => {

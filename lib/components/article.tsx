@@ -31,7 +31,7 @@ const { className, styles } = css.resolve`
     &:not(.mobile) {
       height: 100%;
       & > :global(div) {
-        padding: 0 4rem;
+        padding: 0 8rem 0 4rem;
         max-height: 100%;
         &::before, &::after {
           content: "";
