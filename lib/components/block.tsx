@@ -16,11 +16,13 @@ const variants = {
 
 export const Block = ({
   children,
-  inline
-}: PropsWithChildren<{ inline?: boolean }>) => (
+  inline,
+  className
+}: PropsWithChildren<{ inline?: boolean; className?: string }>) => (
   <motion.div
     variants={variants}
     style={{ display: inline ? "inline-block" : "block" }}
+    className={className}
   >
     {children}
   </motion.div>

@@ -11,19 +11,17 @@ export const Skillsets = () => {
           <h2>{category}</h2>
           <dl>
             {Object.entries(skillset).map(([skill, rating]) => (
-              <Block key={skill}>
-                <div>
-                  <dt>{skill}</dt>
-                  <dd>
-                    <StarRatings
-                      rating={rating * 5}
-                      numberOfStars={5}
-                      name={skill}
-                      starDimension="1rem"
-                      starSpacing="0"
-                    />
-                  </dd>
-                </div>
+              <Block key={skill} className="skill">
+                <dt>{skill}</dt>
+                <dd>
+                  <StarRatings
+                    rating={rating * 5}
+                    numberOfStars={5}
+                    name={skill}
+                    starDimension="1rem"
+                    starSpacing="0"
+                  />
+                </dd>
               </Block>
             ))}
             <style jsx>{`
@@ -33,7 +31,7 @@ export const Skillsets = () => {
                 justify-content: space-around;
                 align-items: center;
                 margin: 1rem 0.5rem;
-                & div {
+                & :global(.skill) {
                   display: inline-block;
                   margin: 0.25rem;
                   & > dt  {

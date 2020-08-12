@@ -1,26 +1,16 @@
-/**
- * Determines if we are running on server or in client.
- * @return {boolean} true if running on server
- */
-function getIsServerRendered() {
-  return typeof window === "undefined"
-}
+import React, { useState, useCallback } from "react"
+import ReactDOM from "react-dom"
 
-/**
- * Accessibility tool - outputs to devtools console on dev only and client-side only.
- * @see https://github.com/dequelabs/react-axe
- */
-if (process.env.NODE_ENV !== "production" && !getIsServerRendered()) {
-  const ReactDOM = require("react-dom")
-  const axe = require("react-axe")
-  axe(React, ReactDOM, 1000)
+if (process.env.NODE_ENV === "development" && typeof window !== "undefined") {
+  import("react-axe").then(axe => {
+    axe.default(React, ReactDOM, 1000)
+  })
 }
 
 import "../public/style.css"
 import "tippy.js/dist/tippy.css"
 import "tippy.js/animations/shift-away-subtle.css"
 
-import { useState, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { AppProps } from "next/app"
 import Head from "next/head"
