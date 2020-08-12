@@ -8,7 +8,9 @@ export const Skillsets = () => {
     <>
       {Object.entries(skillsets).map(([category, skillset]) => (
         <section key={category}>
-          <h2>{category}</h2>
+          <Block>
+            <h2>{category}</h2>
+          </Block>
           <dl>
             {Object.entries(skillset).map(([skill, rating]) => (
               <Block key={skill} className="skill">
