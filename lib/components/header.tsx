@@ -69,7 +69,7 @@ export const Header = () => {
           </Block>
           <Block inline>
             <SocialIcon
-              url="https://twitter.com/qothr"
+              url="https://twitter.com/exograph"
               icon={faTwitter}
               alt="Twitter"
             />
