@@ -1,0 +1,68 @@
+{
+  "General": {
+    "Git": 1.0,
+    "GitHub": 0.8,
+    "GitLab": 0.7,
+    "Docker": 1.0,
+    "Kubernetes": 0.2
+  },
+  "Web": {
+    "TypeScript": 1.0,
+    "Node.js": 0.9,
+    "React": 1.0,
+    "Next.js": 1.0,
+    "Redis": 0.4,
+    "MongoDB": 0.5,
+    "IPFS": 0.7,
+    "WordPress": 0.4
+  },
+  "Native": {
+    "C++": 0.7,
+    "OCaml": 0.8,
+    "F#": 0.7,
+    "Haskell": 0.6,
+    "Swift": 0.8,
+    "Rust": 0.3,
+    "Common Lisp": 0.6,
+    "Scheme": 0.6,
+    "Xamarin": 0.4,
+    "Vulkan": 0.4,
+    "DirectX": 0.6,
+    "Metal": 0.6
+  },
+  "Multimedia": {
+    "CLIP STUDIO PAINT": 0.8,
+    "Adobe Photoshop": 0.6,
+    "Adobe Illustrator": 0.7,
+    "Inkscape": 0.8,
+    "Adobe Premiere Pro": 0.4,
+    "Adobe After Effects": 0.2,
+    "Blender": 0.6
+  },
+  "Publishing & Typesetting": {
+    "Adobe InDesign": 0.8,
+    "SATySFi": 0.9,
+    "LaTeX": 0.2
+  },
+  "OS's": {
+    "macOS": 0.9,
+    "Arch Linux": 0.6,
+    "Windows": 0.7,
+    "RancherOS": 0.7
+  },
+  "Chips & Boards": {
+    "ESP32": 0.7,
+    "Raspberry Pi": 0.7,
+    "FT232H": 0.5
+  },
+  "Protocols & Specs": {
+    "USB": 0.5,
+    "HTTP": 0.7,
+    "PDF": 0.4,
+    "OpenID Connect": 0.8
+  },
+  "CAD": {
+    "EAGLE": 0.6,
+    "Fusion 360": 0.4
+  }
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Qreriqa;
+  font-style: normal;
+  font-weight: 200;
+  src:
+    local('Dosis'),
+    local('Dosis ExtraLight'),
+    url('fonts/Dosis-ExtraLight.min.woff2');
+}
+@font-face {
+  font-family: Qreriqa;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Dosis'),
+    local('Dosis Book'),
+    url('fonts/Dosis-Book.min.woff2');
+}
+
+
+@font-face {
+  font-family: Normal;
+  font-weight: 200;
+  src:
+    local('Noto Sans CJK JP Light'),
+    local('Source Han Sans JP Light'),
+    local('源ノ角ゴシック JP Light'),
+    url('fonts/SourceHanSansJP-Light.min.woff2');
+}
+@font-face {
+  font-family: Normal;
+  font-weight: 400;
+  src:
+    local('Noto Sans CJK JP Regular'),
+    local('Source Han Sans JP Regular'),
+    local('源ノ角ゴシック JP Regular'),
+    url('fonts/SourceHanSansJP-Regular.min.woff2');
+}
+@font-face {
+  font-family: Normal;
+  font-weight: 700;
+  src:
+    local('Noto Sans CJK JP Bold'),
+    local('Source Han Sans JP Bold'),
+    local('源ノ角ゴシック JP Bold'),
+    url('fonts/SourceHanSansJP-Bold.min.woff2');
+}
+
+
+@font-face {
+  font-family: Phonetic;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Charis SIL'),
+    url('fonts/CharisSIL-R.woff2');
+}
+
+
+@font-face {
+  font-family: Translation;
+  font-weight: 400;
+  src:
+    local('cinecaption'),
+    local('しねきゃぷしょん'),
+    url('fonts/cinecaption2.28.min.woff2');
+}

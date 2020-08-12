@@ -1,0 +1,68 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["./dst/**/*", "./node_modules/**/*"]
+  },
+  "rules": {
+    "jsx-no-lambda": { "severity": "warning" },
+    "jsx-boolean-value": false,
+    "no-string-literal": false,
+    "deprecation": true,
+    "comment-format": false,
+    "member-access": [true, "no-public"],
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+    "member-ordering": false,
+    "no-namespace": false,
+    "no-shadowed-variable": false,
+    "radix": false,
+    "prefer-object-spread": true,
+    "prefer-conditional-expression": [true, "check-else-if"],
+    "no-console": { "severity": "warning" },
+    "object-literal-sort-keys": false,
+    "no-unused-expression": {
+      "severity": "warning",
+      "options": [
+        "allow-fast-null-checks",
+        "allow-new",
+        "allow-tagged-template"
+      ]
+    },
+    "no-switch-case-fall-through": false,
+    "no-any": { "severity": "warning" },
+    "no-unsafe-any": { "severity": "warning" },
+    "no-extra-boolean-cast": false,
+    "restrict-plus-operands": true,
+    "strict-boolean-expressions": false,
+    "strict-type-predicates": true,
+    "promise-function-async": true,
+    "prefer-for-of": true,
+    "ban-types": false,
+    "only-arrow-functions": false,
+    "interface-over-type-literal": false,
+    "interface-name": false,
+    "switch-default": true,
+    "number-literal-format": false,
+    "no-bitwise": false,
+    "unified-signatures": false,
+    "no-empty": false,
+    "callable-types": false,
+    "forin": false,
+    "class-name": true,
+    "arrow-return-shorthand": true,
+    "array-type": false,
+    "encoding": true,
+    "no-object-literal-type-assertion": false,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "allow-snake-case"
+    ],
+    "no-return-await": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false
+  }
+}

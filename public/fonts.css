@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Dosis ExtraLight"),
+    url("/public/assets/fonts/Dosis-ExtraLight.min.woff2");
+}
+
+@font-face {
+  font-family: Phonetic;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Charis SIL"), url("/public/assets/fonts/CharisSIL-R.woff2");
+}

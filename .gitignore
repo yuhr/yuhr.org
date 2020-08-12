@@ -1,0 +1,10 @@
+.*
+!.git*
+!.*rc
+!.*ignore
+!.*attributes
+!.vscode
+!.editorconfig
+
+node_modules
+*.log

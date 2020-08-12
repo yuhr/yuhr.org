@@ -1,0 +1,10 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "tslint.nodePath": "./node_modules",
+  "tslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "bookmarks.saveBookmarksInProject": true,
+  "files.associations": {
+    ".*rc": "json"
+  }
+}

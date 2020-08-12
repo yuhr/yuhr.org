@@ -1,0 +1,11 @@
+.*ignore
+.*attributes
+
+!.*rc
+!*.md
+!*.yml
+!*.json
+!*.mjs
+!src/**/*
+!*.xml
+!*.svg

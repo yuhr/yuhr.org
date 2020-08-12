@@ -1,0 +1,14 @@
+{
+  "semi": false,
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": ".*rc",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": "*.{xml,svg}",
+      "options": { "parser": "html" }
+    }
+  ]
+}
