@@ -84,15 +84,11 @@ const { className, styles } = css.resolve`
           & > :global(:first-child) {
             position: relative;
             &::before {
-              content: "";
+              content: "•";
               position: absolute;
-              display: inline-block;
-              width: 0.25em;
-              height: 0.25em;
-              background: #666460;
-              border-radius: 50%;
               left: -0.75em;
-              top: calc(50% - 0.125em);
+              display: inline-block;
+              color: #666460;
             }
           }
         }

@@ -1,7 +1,10 @@
-import Tippy from "@tippyjs/react"
+import Tippy, { TippyProps } from "@tippyjs/react"
 import { PropsWithChildren } from "react"
 
-export const Tooltip = ({ children, ...props }: PropsWithChildren<{}>) => (
+export const Tooltip = ({
+  children,
+  ...props
+}: PropsWithChildren<TippyProps>) => (
   <Tippy
     placement="bottom"
     animation="shift-away-subtle"
