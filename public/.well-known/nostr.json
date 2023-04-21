@@ -1,1 +1,10 @@
-{"names":{"_":"85563bdf8b7ec25abb0393fce1d6860fc2aac1237e00455a45b6e7c8717899c7"}}
+{
+  "names": {
+    "_": "85563bdf8b7ec25abb0393fce1d6860fc2aac1237e00455a45b6e7c8717899c7"
+  },
+  "relays": {
+    "85563bdf8b7ec25abb0393fce1d6860fc2aac1237e00455a45b6e7c8717899c7": [
+      "wss://nostr.yuhr.org"
+    ]
+  }
+}
