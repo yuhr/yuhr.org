@@ -6,8 +6,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://yuhr.org/qr/</loc>
+    <loc>https://blog.yuhr.org/</loc>
     <priority>1.0</priority>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
